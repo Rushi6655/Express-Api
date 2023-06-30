@@ -1,0 +1,17 @@
+{
+  "name": "accessapisnode",
+  "version": "1.0.0",
+  "description": "Access Apis",
+  "main": "./Controller/AccessApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./Controller/AccessApi.js"
+  },
+  "author": "Rushi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.4.3",
+    "nodemon": "^2.0.22"
+  }
+}
